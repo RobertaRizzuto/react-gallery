@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar action={() => setGalleryVisibility(!isGalleryVisibile)}/>
+      <Navbar action={() => setGalleryVisibility(!isGalleryVisibile)} condition={isGalleryVisibile}/>
       <Hero/>
       <Gallery visibility={isGalleryVisibile} />
     </div>

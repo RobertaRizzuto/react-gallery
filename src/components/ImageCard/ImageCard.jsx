@@ -6,6 +6,7 @@ import { useState } from 'react';
 
 const ImageCard = ({data}) => {
  const [isModalVisibile, setModalVisibility] = useState(false);
+ 
   return (
     <div className="ImageCard">
       <img className="ImageCard__img" src={data.url} alt={data.name} onClick={() => setModalVisibility(!isModalVisibile)}/>

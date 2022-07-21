@@ -3,7 +3,6 @@ import galleryMock from '../../assets/galleryMock';
 import './index.css';
 
 const Gallery = ({visibility}) => {
-  console.log('visibility', visibility)
   return (
     <div className="Gallery">
       { visibility ? (

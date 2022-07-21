@@ -1,6 +1,6 @@
 import "./index.css";
 
-const Modal = ({source, visibility,closeModal}) => {
+const Modal = ({source, visibility, closeModal}) => {
    
   return (
     <>
